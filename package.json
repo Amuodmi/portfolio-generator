@@ -2,12 +2,12 @@
   "name": "portfolio-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/Amuodmi/portfolio-generator.git"
   },
   "author": "",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Amuodmi/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "^8.2.4"
   }
 }
